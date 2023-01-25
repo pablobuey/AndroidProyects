@@ -6,4 +6,6 @@ Aplicaciones Multiplataforma.
 La aplicación contiene 4 categorías (Juguetes, Decoración, Deportes y Videojuegos) las cuales llevan a los mismos 8 productos (solo he desarrollado los juguetes).
 El código está comentado para entender cada parte.
 
+El logo de Mercapablo está diseñado por mi. Los demás diseños no son de mi propiedad.
+
 
