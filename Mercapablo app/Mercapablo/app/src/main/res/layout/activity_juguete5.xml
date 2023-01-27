@@ -48,7 +48,7 @@
             android:layout_marginTop="10dp"
             android:textStyle="bold"
             android:gravity="center"
-            android:text="Buzz Lightyear" />
+            android:text="Coche Cazafantasmas" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -76,7 +76,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/material_dynamic_neutral95"
-                        app:srcCompat="@drawable/fotodescripcion7" />
+                        app:srcCompat="@drawable/fotodescripcion5" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -143,7 +143,7 @@
 
                 android:gravity="left
 "               android:layout_margin="20dp"
-                android:text="El control de radio funciones completas. Alta velocidad. 2,4 Ghz. Escala 1:18, 13-15 Km/h."
+                android:text="Cochazo de juguete de la super peli Cazafantasmas."
                 android:textColor="@color/black2"
                 android:textSize="15dp"
                  />
@@ -221,7 +221,7 @@
 
                 android:layout_marginLeft="10dp"
                 android:gravity="left"
-                android:text="      - Incluye pilas: No"
+                android:text="      - Incluye pilas: Si"
                 android:textColor="@color/black2"
                 android:textSize="15dp" />
 
@@ -260,9 +260,10 @@
 
                 android:layout_marginLeft="10dp"
                 android:gravity="left"
-                android:text="      - Desde 8 a 14 años"
+                android:text="      - Desde 6 a 14 años"
                 android:textColor="@color/black2"
                 android:textSize="15dp" />
+
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/floatingActionButton"
                 android:layout_width="match_parent"

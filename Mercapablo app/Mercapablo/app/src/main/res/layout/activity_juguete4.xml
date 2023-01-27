@@ -48,7 +48,7 @@
             android:layout_marginTop="10dp"
             android:textStyle="bold"
             android:gravity="center"
-            android:text="Figura Spiderman" />
+            android:text="Figura Mr.Potato" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -76,7 +76,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/material_dynamic_neutral95"
-                        app:srcCompat="@drawable/fotodescripcion3" />
+                        app:srcCompat="@drawable/fotodescripcion4" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -143,7 +143,7 @@
 
                 android:gravity="left
 "               android:layout_margin="20dp"
-                android:text="El control de radio funciones completas. Alta velocidad. 2,4 Ghz. Escala 1:18, 13-15 Km/h."
+                android:text=" Juguete desmontable de Mr.Potato, de la aclamada película Toy Story."
                 android:textColor="@color/black2"
                 android:textSize="15dp"
                  />
@@ -221,22 +221,11 @@
 
                 android:layout_marginLeft="10dp"
                 android:gravity="left"
-                android:text="      - Incluye pilas: No"
+                android:text="      - Funciona sin pilas."
                 android:textColor="@color/black2"
                 android:textSize="15dp" />
 
-            <TextView
-                android:id="@+id/textView22"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
 
-
-                android:layout_marginLeft="10dp"
-                android:gravity="left
-"
-                android:text="      - Número de pilas: 6 Pilas AA -1.5V"
-                android:textColor="@color/black2"
-                android:textSize="15dp" />
 
             <TextView
                 android:id="@+id/textView24"
@@ -263,8 +252,6 @@
                 android:text="      - Desde 8 a 14 años"
                 android:textColor="@color/black2"
                 android:textSize="15dp" />
-
-
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/floatingActionButton"

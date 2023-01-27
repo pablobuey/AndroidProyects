@@ -48,7 +48,7 @@
             android:layout_marginTop="10dp"
             android:textStyle="bold"
             android:gravity="center"
-            android:text="Peluche Picachu" />
+            android:text="Buzz Lightyear" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -76,7 +76,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/material_dynamic_neutral95"
-                        app:srcCompat="@drawable/fotodescripcion2" />
+                        app:srcCompat="@drawable/fotodescripcion7" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -143,7 +143,7 @@
 
                 android:gravity="left
 "               android:layout_margin="20dp"
-                android:text="El control de radio funciones completas. Alta velocidad. 2,4 Ghz. Escala 1:18, 13-15 Km/h."
+                android:text="El auténtico juguete de Buzz Lightyear, de la aclamada película de animación Toy Story."
                 android:textColor="@color/black2"
                 android:textSize="15dp"
                  />
@@ -159,19 +159,7 @@
                 android:textSize="15dp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textView18"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
 
-
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:gravity="left
-"
-                android:text="Características psicopedagógicas:"
-                android:textColor="@color/black2"
-                android:textSize="15dp" />
 
             <TextView
                 android:id="@+id/textView10"
@@ -182,22 +170,11 @@
                 android:layout_marginLeft="10dp"
                 android:gravity="left
 "
-                android:text="      - Orientación espacial"
+                android:text="      - 20cm de alto, 10cm de ancho, 5 de profundo"
                 android:textColor="@color/black2"
                 android:textSize="15dp" />
 
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
 
-
-                android:layout_marginLeft="10dp"
-                android:gravity="left
-"
-                android:text="      - Motricidad global"
-                android:textColor="@color/black2"
-                android:textSize="15dp" />
 
             <TextView
                 android:id="@+id/textView17"
@@ -260,10 +237,9 @@
 
                 android:layout_marginLeft="10dp"
                 android:gravity="left"
-                android:text="      - Desde 8 a 14 años"
+                android:text="      - Para todos los públicos"
                 android:textColor="@color/black2"
                 android:textSize="15dp" />
-
             <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/floatingActionButton"
                 android:layout_width="match_parent"
@@ -271,13 +247,8 @@
                 android:layout_gravity="right"
                 android:layout_marginBottom="20dp"
                 android:layout_marginRight="20dp"
-
-
-
                 android:clickable="true"
                 app:srcCompat="@drawable/carrito_de_compras" />
-
-
 
 
         </LinearLayout>
