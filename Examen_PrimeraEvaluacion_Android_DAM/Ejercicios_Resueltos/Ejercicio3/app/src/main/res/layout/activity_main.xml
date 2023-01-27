@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D5DADD"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="Datos personales"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/vacio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:text=""
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="Nombre"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName3"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/apellido"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="Apellido"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName4"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="Email"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTextTextEmailAddress3"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+
+                    android:layout_margin="10dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:id="@+id/nombre6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="Tipo de documento"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+
+                    android:layout_margin="10dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@color/white"
+                    android:text="DNI español" />
+
+                <TextView
+                    android:id="@+id/Identificacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="Numero de documento de identificación"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/entradaIdentificacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+
+                    android:layout_margin="10dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:id="@+id/sexo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="Sexo"
+                    android:textStyle="bold" />
+
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Masculino" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Femenino" />
+
+
+                <TextView
+                    android:id="@+id/fechaNacimiento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="Fecha de nacimiento"
+                    android:textStyle="bold" />
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+
+                    android:layout_margin="10dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/textViewFinal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="Datos personales"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/vacio2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:text=""
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/telefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="Telefono"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTextPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+
+                    android:layout_margin="10dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="phone" />
+
+                <TextView
+                    android:id="@+id/telefono2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="Telefono en caso de emergencia"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTextPhone2"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+
+                    android:layout_margin="10dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="phone" />
+
+                <TextView
+                    android:id="@+id/CodigoPostal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:text="Codigo Postal"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/entradaCodigoPostal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+
+                    android:layout_margin="10dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@color/white"
+                    android:ems="10"
+                    android:inputType="textEmailAddress" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Acepto el reglamento" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="He leído el reglamento y entiendo que la organización podrá modificar el recorrido si así lo aconsejaran las
+circunstancias, y/o podrá ser suspendida la carrera por causas climatológicas o de fuerza mayor, tras deliberación de los
+responsables de la Organización. Así mismo entiendo que el TRAIL 25K es una prueba en régimen de autosuficiencia
+alimentaria, se recomienda que el participante lleve consigo la comida (barritas, geles, etc.) y el equipo necesario para
+completarla." />
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="#ffdf72"
+                    android:text="Siguiente ->"
+                    android:textColor="@color/black" />
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
